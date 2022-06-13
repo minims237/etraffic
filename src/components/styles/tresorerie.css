@@ -1,0 +1,19 @@
+.post__contener {
+  background: #fff;
+}
+.post__contener_table {
+  padding: 50px;
+}
+p {
+  margin: 20px;
+}
+
+td {
+
+  box-shadow: 3px 1px 8px rgba(125, 144, 152, 0.1);
+}
+.scr {
+  height: 60vh;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+}

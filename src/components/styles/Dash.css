@@ -1,0 +1,124 @@
+.dash_contener {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 90px;
+}
+.dash_contener_group {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+}
+.dash_contener_group_user {
+  width: 330px;
+  margin: 10px;
+  height: 160px;
+  border-radius: 15px;
+  border:1px solid #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.dash_contener_group_user__title{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+margin-right: 135px;
+}
+.dash_contener_group_user__texte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dash_contener_group_user__texte a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2d87ff;
+}
+.bgc {
+  background-color: #f4f4f5;
+  width: 240px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.dash_contener_group_notification {
+  width: 100%;
+  background: white;
+  margin: 10px;
+  margin-right: 0px;
+}
+.dash_contener_post {
+  background: white;
+  width: 100%;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clr {
+  background-color: #1b2033;
+  color: white;
+  text-align: center;
+}
+.btns {
+  border: none;
+  height: 23px;
+}
+.toBar{
+  width: 100%;
+  height: 50px;
+  background-color: #f4f4f5;
+  border-bottom: 5px solid #2d87ff;
+}
+.topBar {
+  border-bottom: 5px solid #2d87ff;
+  width: 100%;
+ height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 45px;
+  background-color: #f4f4f5;
+}
+.position {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: center;
+  padding-right: 150px;
+  padding-top: 12px;
+}
+.btnspace {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 12px;
+}
+.errorn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  padding-top: 20%;
+}
+.errorn p{
+  color: red;
+}

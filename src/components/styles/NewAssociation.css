@@ -1,0 +1,77 @@
+.inputElement{
+    display: flex;
+    flex-direction: column;
+}
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-top: 2%;
+ 
+}
+select,.inputElement input{
+  
+    height: 40px;
+    border:2px solid #f2f2f2
+   
+}
+.inpE{
+    margin-top: 20px;
+}
+.btnS{
+    background-color: #2d87ff;
+    color: white;
+  text-align: center;
+}
+
+.labelSpaceT{
+    padding-bottom: 20px;
+}
+.labelSpace{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+Form.Select,option{
+    padding-left: 200px;
+}
+.slt{
+    padding-left: 40px;
+}
+.champInput{
+   min-width: 653px;
+    min-height: 58px;
+    border-radius: 10px;
+    resize: none;
+}
+.champInputF{
+    min-width: 653px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-color: #e9ecef;
+ }
+ .labelSpaceN{
+    padding-top: 20px;
+    padding-bottom: 10px;
+ }
+ .suggestionItem{
+     display: flex;
+     flex-direction: column;
+     min-width: 100%;
+     min-height: 45px;
+     margin-bottom: 15px;
+   
+ }
+ .suggestionItem h5{
+     text-transform: uppercase;
+ }
+ .tresoirie{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+ }
